@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "Html2PdfProcessor";
+
+package Html2PdfApi;
+
+service Html2PdfApi {
+  rpc CreatePdf (CreatePdfRequest) returns (stream CreatePdfReply);
+}
+
+message CreatePdfRequest {
+  string html = 1;
+}
+
+message CreatePdfReply {
+  bytes pdf = 1;
+}

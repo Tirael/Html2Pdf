@@ -1,0 +1,13 @@
+﻿{
+  "profiles": {
+    "Html2PdfProcessor": {
+      "commandName": "Project",
+      "dotnetRunMessages": "true",
+      "applicationUrl": "http://localhost:8082",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "PUPPETEER_EXECUTABLE_PATH": "c:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
+      }
+    }
+  }
+}
